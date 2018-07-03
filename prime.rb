@@ -4,5 +4,5 @@ def is_prime(num)
     return false
    end
   end
-  true
+  return true
  end
