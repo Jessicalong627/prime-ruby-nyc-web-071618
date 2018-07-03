@@ -1,7 +1,7 @@
-def prime?(int)
-   if int > 1 && int%2 !=0
-     true
-  else
-     false
-  end
+def prime?(num)
+if num % 2 != 0
+return true
+else
+return false
+end
 end
