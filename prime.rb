@@ -1,8 +1,8 @@
-def prime?(num)
-  for d in 2..(num - 1)
-   if (num % d == 0 || num = -1)
-    return false
-   end
-  end
-  return true
+def countdown_with_sleep(num)
+while num > 0
+  puts "#{num} SECOND(S)!"
+  sleep(1)
+  num -= 1
+end
+  "HAPPY NEW YEAR!"
  end
