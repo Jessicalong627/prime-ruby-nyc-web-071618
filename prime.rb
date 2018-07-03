@@ -1,8 +1,13 @@
-def countdown_with_sleep(num)
-while num > 0
-  puts "#{num} SECOND(S)!"
-  sleep(1)
-  num -= 1
+def prime?(num)
+  if num < 2
+    return false
+  end
+  i = 2
+  while i <= num / 2
+    if num % i == 0
+      return false
+    end
+    i += 1
+  end
+  return true
 end
-  "HAPPY NEW YEAR!"
- end
